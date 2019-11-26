@@ -7,8 +7,13 @@ Write a node program that takes in an unlimited of command line arguments, go th
 ## Questions
 
 - How can we tell if it's a whole number?
+  - `Number.isInteger()`
 - How do we get the command line arguments
+  - `process.argv`
   - Does the command line give us a `string` or an `number`?
+    - `string`
+  - How do we convert from a string to a number?
+    - `parseFloat`
 
 ## Pseudocode
 
